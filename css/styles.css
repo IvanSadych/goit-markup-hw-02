@@ -8,13 +8,20 @@
 }
 
 .header{
-    width: 1440px;
+width: 1440px;
 height: 72px;
 border: 1px;
 bacground-color: #E7E9FC; 
 }
+
+/* Logo */
 .logo-web{
-    color: var(--IRIS, #4D5AE5);
+    display: inline-flex;
+height: 24px;
+align-items: center;
+flex-shrink: 0;
+
+color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
@@ -23,7 +30,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .logo-studio{
-    color: var(--NAVY-BLUE, #2E2F42);
+color: var(--NAVY-BLUE, #2E2F42);
 font-family: Raleway;
 font-size: 18px;
 
@@ -31,4 +38,38 @@ font-weight: 700;
 line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+}
+
+/* Navigations */
+.navigation{
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+}
+.studio{
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+.portfolio{
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+.contacts{
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
 }
