@@ -120,3 +120,17 @@
     line-height: 1.11;
     text-align: center;
   }
+
+  .team-list {
+    background-color: var(--body-bg-color);
+  }
+  
+  .footer-logo-accent {
+    color: var(--bright_text-color);
+  }
+  
+  .footer-text {
+    color: var(--bright_text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
