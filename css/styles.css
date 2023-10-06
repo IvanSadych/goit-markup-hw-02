@@ -125,6 +125,24 @@
     background-color: var(--body-bg-color);
   }
   
+
+  .footer {
+    background-color: var(--headings-color);
+    padding: 100px 0;
+  }
+  
+  .footer-logo {
+    display: inline-block;
+    color: var(--primary-brand-color);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
   .footer-logo-accent {
     color: var(--bright_text-color);
   }
@@ -133,4 +151,5 @@
     color: var(--bright_text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
   }
