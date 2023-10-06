@@ -78,3 +78,18 @@
   letter-spacing: 0.02em;
   text-align: center;
 }
+.button {
+    color: var(--body-bg-color);
+    background-color: var(--primary-brand-color);
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: var(--active-button-color);
+  }
+  
