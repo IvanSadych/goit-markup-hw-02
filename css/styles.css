@@ -6,3 +6,9 @@
     --primary-brand-color: #4d5ae5;
     --active-button-color: #404bbf;
   }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text-color);
+    background-color: var(--body-bg-color);
+  }
